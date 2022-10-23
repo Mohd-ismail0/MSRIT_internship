@@ -1,0 +1,46 @@
+<html>
+<title>registration form</title>
+<body style="background-color: grey;">
+    <h1><strong> Welcome to MSRIT</strong></h1>
+    <p>This the registration form for your admission into
+    the collage. <br>Please enter the office details. </p>
+    <form>
+        Enter your name: <input type="text" name="Name"><br>
+        Enter your DOB: <input type="text" name="DOB"><br>
+        Enter your Primary school name: <input type="text" name="pschoolname"> 
+        <br>Enter your Secondary school name: <input type="text" name="sschoolname"><br>
+        Enter your PU Collage Name: <input type="text" name="puname"><br>
+        Enter your Registered Phone number: <input type="text" name="phno"><br>
+        Enter your Email ID: <input type="text" name="emailid"><br>
+        Enter your Admission number: <input type="password" name="adno"><br><br>
+        Choose your Staying Location: <input type="radio" name="stay">Local
+        <input type="radio" name="stay">hostel<br>
+        Select your Department: <select name="branch">
+            <option value="a">Mechanical</option>
+            <option value="b">Civil</option>
+            <option value="c">Computer Science</option>
+            <option value="d">Electronics</option>
+            <option value="e">Information Science</option>
+            <option value="f">Biotech</option>
+            <option value="g">other</option>
+        </select><br>
+        choose your subjects for this semester: <br>
+        <input type="checkbox" name="subjects">Math1<br>
+        <input type="checkbox" name="subjects">Math2<br>
+        <input type="checkbox" name="subjects">EEE<br>
+        <input type="checkbox" name="subjects">Ec<br>
+        <input type="checkbox" name="subjects">mechanical<br>
+        <input type="checkbox" name="subjects">civil<br>
+        <input type="checkbox" name="subjects">English<br>
+        <input type="checkbox" name="subjects">Design Thinking<br>
+        <input type="checkbox" name="subjects">A Scientific Approach to Health<br>
+        <input type="checkbox" name="subjects">Chemistry<br>
+        <input type="checkbox" name="subjects">Physics<br>
+        <input type="checkbox" name="subjects">Hindi<br>
+        Enter your Proctor Name: <input type="text" name="procname"><br>
+        <br><br>
+        Please check the above filled details. <br>
+        <input type="reset" > .... <input type="submit" ><br>
+    </form>
+</body>
+</html>
