@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+<body>
+    <h1>Bio-data form </h1>
+    Name : <input type="text" id="name"></input><br><br>
+    Age : <input type="text" id="age"></input><br><br>
+    Gender : <input type="text" id="gen"></input><br><br>
+    <button type="button" onclick="anotherFunction()">Submit</button>
+    <script>
+        function anotherFunction() {
+            a=document.getElementById("name").value;
+            b=document.getElementById("age").value;
+            c=document.getElementById("gen").value;
+            document.writeln(a);
+            document.writeln(b);
+            document.writeln(c);
+        }
+    </script>
+</body>
+</html>
