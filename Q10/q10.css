@@ -1,0 +1,30 @@
+.divc{
+    padding: 20 20 20 20;
+}
+.inputbox{
+    width: 200px;
+    height: 30px;
+    box-sizing: border-box;
+    color: black;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.labe{
+    font-size: 18px;
+    font-weight: 500;
+}
+.button{
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 6px;
+    border: 0.1px solid #353535;
+    background-color: #0d6d70;
+    color: white;
+    font-size: 14px;
+}
+.button:active{
+    opacity: 0.7;
+}
