@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>CV</title>
+    <style>
+        body{
+            background-color: rgb(161, 199, 201);
+            color: black;
+        }
+        .name{
+        font-size: 30px;
+        font-weight: bold;
+        }
+        .under{
+        color: white;
+        background-color:#051A1A;
+        padding: 5px;
+        }
+        .h1{
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #051A1A;
+        color: white;
+        padding: 5px;
+        }
+        .content{
+        font-size: 15px;
+        }
+        .photo{
+        filter: blur(0.6px);
+        position: relative;
+        }
+    </style>
+</head>
+<body>
+    <hr color="red">
+    <p class="name"><u class="under">Mohammed Ismail</u></p>
+    <img class="photo" src="https://bit.ly/3z6YnYB" alt="landscape" width="150px">
+    <h1 class="h1">Professional Summary</h1>
+    <p class="content">A competent, reliable and experienced stockroom assistant with a thorough working 
+        knowledge at the inventory managment process.</p>
+    <h2 class="h1">Core Qualificaton</h2>
+    <p class="content">NVQ Level 3 Diploma i Warehousing and Storage </p>
+    <h3 class="h1">Acadimic Qualificaton</h3>
+    <p class="content">GCSEs Enlish(b), Sat Score: 1500/1600, 12th CBSE Board, 10th CBSE Board</p>
+    <h4 class="h1">Key Skills</h4>
+    <ul>
+        <li>Thorough knowledge of inventory and managment</li>
+        <li>Excellent attention to detail</li>
+    </ul>
+    <h5 class="h1">Experience</h5>
+    <ul class="content">
+        <li>Supporting the stock manager with a range of stock</li>
+        <li>Maintaing records for goods</li>
+    </ul>
+    <h6 class="h1">References</h6>
+    <p class="content">Principal, MD of VSL Logistics</p>
+    <h6 class="h1">Conclusion</h6>
+    <p class="content">I would request you to consider my CV for the post in your company.</p>
+</body>
+</html>
