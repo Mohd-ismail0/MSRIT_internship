@@ -1,0 +1,110 @@
+<html>
+    <img src=" https://bit.ly/3gz75so" width="100px">
+    <h1 style="text-align: center" >Resume</h1>
+    <table style= "padding: 15;">
+        <caption><h3>Personal Details</h3></caption>
+        <colgroup>
+            <col style="background-color: #ee9f91"/>
+            <col style="background-color: #90a4e6" span="2"/>
+        </colgroup> 
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Contact Number</th>
+                <th>Email id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Mohammed Ismail</th>
+                <td>+919164015302</td>
+                <td>md.13ismail@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul style="padding: 15;">
+        <caption><h3>Skills</h3></caption>
+        <li>Flutter</li>
+        <li>UI/UX Design</li>
+        <li>HTML</li>
+    </ul>
+
+    <table >
+        <caption><h3>12th Marks</h3></caption>
+        <colgroup>
+            <col style="background-color: #eec991"/>
+            <col style="background-color: #90a4e6"/>
+            </colgroup> 
+            
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Physics</td>
+                <td>85/100</td>
+            </tr>
+            <tr>
+                <td>Computer</td>
+                <td>88/100</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>90/100</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>92/100</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table >
+        <caption><h3>10th Marks</h3></caption>
+        <colgroup>
+            <col style="background-color: #eec991"/>
+            <col style="background-color: #90a4e6"/>
+            </colgroup> 
+            
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Science</td>
+                <td>90/100</td>
+            </tr>
+            <tr>
+                <td>Computer</td>
+                <td>88/100</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>90/100</td>
+            </tr>
+            <tr>
+                <td>SST</td>
+                <td>97/100</td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td>87/100</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>97/100</td>
+            </tr>
+        </tbody>
+    </table>
+    <strong>Achievements:</strong>
+    <ul>
+    <li>Sports day- 2nd in 200mtrs race. </li>
+    <li></li>
+    </ul>
+</html>
