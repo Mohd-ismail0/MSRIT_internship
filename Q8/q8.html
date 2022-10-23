@@ -1,0 +1,63 @@
+<html>
+<body>
+    <style>
+        .textlabel{
+            font-size: medium;
+            padding: auto;
+            margin-right: 1%;
+        }
+    </style>
+    <h2>Enter Details</h2>
+    <form onsubmit="items()">
+        <p><label class="textlabel">Item Name:</label><input type="text" id="item"></P>
+        <p><label class="textlabel">Quantity:</label><input type="text" id="qty"></p>
+        <p><label class="textlabel">Item code:</label><input type="text" id="icode"></P>
+        <p><label class="textlabel">Price:</label><input type="text" id="price"></p>
+    </form>
+    <button type="submit" onclick="items()">Submit</button>
+
+    <script>
+        function items(){
+            item = {
+                Name : document.getElementById("item").value,
+                qty : document.getElementById("qty").value,
+                code : document.getElementById("icode").value,
+                price : document.getElementById("price").value,
+            };
+            let tprice=parseInt(document.getElementById("qty").value)*parseInt(document.getElementById("price").value); 
+            document.getElementById("name").innerHTML=item.Name;
+            document.getElementById("qt").innerHTML=item.qty;
+            document.getElementById("icod").innerHTML=item.code;
+            document.getElementById("pric").innerHTML=item.price;
+            document.getElementById("tpric").innerHTML=tprice;
+        }
+    </script>
+
+    <table style= "width: 100%;">
+        <caption><h3>Items</h3></caption>
+        <colgroup>
+            <col style="background-color: #ee9f91"/>
+            <col style="background-color: #90a4e6" span="3"/>
+            <col style="background-color: #666666"/>
+        </colgroup>     
+        <thead>
+            <tr>
+                <th>Items</th>
+                <th>Qty</th>
+                <th>Item Code</th>
+                <th>Price</th>
+                <th>Total Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="name"></th>
+                <th id="qt"></th>
+                <th id="icod"></th>
+                <th id="pric"></th>
+                <th id="tpric"></th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
