@@ -1,0 +1,37 @@
+<html>
+<body>
+    <h2>What can javascript do?</h2>
+    <p id="demo"></p>
+    
+    <script>
+    function function1(){
+        a=parseInt(document.getElementById("n1").value);
+        b=1;
+        for (i=1;i<=a;i++){
+            b*=i 
+        }
+        alert(b);
+    }
+    function function2(){
+        a=parseInt(document.getElementById("n1").value);
+        res=1;
+        for(i=2;i<=9;i++){     
+            res = (a%i);
+            switch (res){
+                case 0 :
+                    document.writeln("Divisible by" + i + "<br>");
+                    break;
+                case 1:
+                    document.writeln(i + "is not a divisor" + "<br>");
+                    break;
+            }
+        }
+    }
+    </script>
+    <form>
+        <input type="number" id="n1"></input>
+    </form>
+    <button type="button" onclick="function1()">Factorial</button>
+    <button type="button" onclick="function2()">Switch</button>
+</body>
+</html>
