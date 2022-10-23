@@ -1,0 +1,158 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body {
+font-family:'Courier New', Courier, monospace;
+}
+nav {
+background:rgb(61, 185, 61);
+height:80px;
+width:100%;
+}
+label.logo {
+color:rgb(7, 7, 7);
+font-size: 90px;
+line-height: 90px;
+padding:0 100px;
+font-weight: bolder;
+}
+nav ul {
+float:right;
+margin-right: 20px;
+}
+nav ul li {
+    display:inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a {
+color:white;
+font-size: 18px;
+text-transform: uppercase;
+}
+a.active,a:hover {
+background:rgba(9, 10, 9, 0.596) ;
+}
+.checkbtn {
+font-size: 30px;
+color:black;
+float:right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+}
+#check {
+display:none;
+}
+@media (max-width:952px) {
+    label-logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li {
+        font-size: 16px;
+    }
+}
+@media (max-width:858px) {
+    .checkbtn{
+        display:block;
+    }
+    ul{
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        background:black;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display:block;
+        margin:50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,a.active {
+        background:none;
+        color:rgb(21, 145, 21);
+    }
+    #check:checked ~ ul {
+        left:0;
+    }
+}
+section {
+    background: url(uni6.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+.heading {
+    background-color:rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family:'Courier New', Courier,
+    monospace;
+    color:rgb(97, 172, 27);
+    text-align:center;
+    font-size:xx-large
+}
+@media only screen and (max-width:800px;){
+    .head {
+        width:100%
+    }
+}
+.founder {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-size:large;
+    text-align: center;
+}
+img{
+    border-color: black;
+    border-style:groove;
+    float:left;
+}
+#text{
+    display: flex;
+    align-items:center;
+}
+#text img{
+    margin-right:50px;
+}
+.text {
+    color: rgb(6, 53, 12);
+    font-weight: bolder;
+}
+.login {
+    background-color:black;
+    color: rgb(241, 241, 241);
+    width:90px;
+    height:30px;
+}
+.login:hover{
+    background-color: green;
+}
+.signin {
+    background-color:black;
+    color: rgb(241, 241, 241);
+    width:90px;
+    height:30px;
+}
+.signin:hover{
+    background-color: green;
+}
+.achievements {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-size:large;
+    text-align: center;
+}
+table {
+    color: rgb(92, 238, 121);
+    background-color:black;
+}
